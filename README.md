@@ -46,11 +46,4 @@ Este projeto consolidou conhecimentos em:
 
 ### 🚀 Como ouvir
 
-1. Clone este repositório.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Dê o play e observe as cores mudarem conforme a música!
-
----
-<div align="center">
-  Desenvolvido por <a href="https://github.com/cammizz">Camila Emanuelle</a>
-</div>
+O Player de Músicas está disponível para ser acessado online através do GitHub Pages! Acesse por esse link: https://cammizz.github.io/Musiquify/
