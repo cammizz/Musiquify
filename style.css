@@ -1,0 +1,174 @@
+body {
+    background-image: linear-gradient(
+    rgb(59,87,94),
+    rgb(25,35,37)
+ );
+ height: 100vh;
+ color: white;
+ font-family: sans-serif;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: flex-start;
+ padding-top: 10vh;
+ overflow: hidden;
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#cover {
+    width: 450px;
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0 1em 0;
+    width: 100%;
+    min-width: 0;
+}
+
+#playlist-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0.2em 0 3em 0;
+}
+
+#song-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#progress-bar {
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 6px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: visible;
+}
+
+#current-progress {
+    --progress: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progress);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(29, 185, 84, 0.5);
+}
+
+#current-progress::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#progress-container:hover #current-progress::after{
+    opacity: 1;
+}
+
+#progress-container {
+    cursor: pointer;
+}
+
+#time-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
+
+#song-name, #band-name { 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+    display: block; 
+}
+
+
+#like { 
+    flex-shrink: 0; 
+}
+
+.track-info-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0; 
+    flex: 1; 
+    margin-right: 15px; 
+}
+
+.music-container {
+    margin-top: -3vh; 
+    padding: 30px; 
+    border-radius: 20px; 
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18); 
+}
+
+.button.button-active {
+    color: rgb(218, 160, 196);
+    text-shadow: 0 0 10px rgba(253, 229, 241, 0.74);
+}
+
+.light-color {
+    color: rgb(120, 132, 134);
+}
+
+.button {
+    font-size: 1.5em;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.button-biggest:hover {
+    transform: scale(1.15);
+}
+
+.button-navigate {
+    font-size: 3em;
+}
+
+.button-biggest {
+    font-size: 4em;
+}
