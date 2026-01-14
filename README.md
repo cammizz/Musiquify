@@ -13,6 +13,7 @@ Inspirado no layout e na usabilidade do Spotify, o projeto recria as funcionalid
 O player conta com recursos dinâmicos e interativos:
 
 * 🎨 **Atmosfera Visual Dinâmica:** O background da aplicação muda de cor automaticamente para combinar com a capa do álbum da música que está tocando, criando uma experiência imersiva.
+* 💚 **Sistema de Curtir:** Botão de "coração" funcional. O usuário pode curtir e descurtir a música, com feedback visual imediato (ícone preenchido/vazio).
 * ⏯️ **Controles de Reprodução:** Play (Tocar) e Pause (Pausar).
 * ⏮️⏭️ **Navegação de Faixas:** Botões para avançar e voltar músicas.
 * 🔀 **Modo Aleatório (Shuffle):** Algoritmo que embaralha a ordem da playlist.
@@ -22,15 +23,15 @@ O player conta com recursos dinâmicos e interativos:
 ### 💿 A Playlist
 
 O projeto já vem carregado com uma seleção eclética:
-1. Exit Music (For A Film)
-2. Feel Good Inc.
-3. My Humps
-4. O Que É O Amor
-5. Promise
-6. Sorri, Sou Rei
-7. This Comes From Inside
-8. Wiseman
-9. Todo Homem
+1. Exit Music (For A Film) - Radiohead
+2. Feel Good Inc. - Gorillaz
+3. My Humps - Black Eyed Peas
+4. O Que É O Amor - Arlindo Cruz
+5. Promise - Laufey
+6. Sorri, Sou Rei - Natiruts
+7. This Comes From Inside - The Living Tombstone
+8. Wiseman - Frank Ocean
+9. Todo Homem - Zeca Veloso, Caetano Veloso, Moreno Veloso e Tom Veloso
 
 ### 🛠️ Tecnologias e Conceitos
 
